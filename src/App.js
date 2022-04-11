@@ -1,5 +1,6 @@
-import logo from './logo.svg';
-import './App.css';
+import logo from "./logo.svg";
+
+import "./App.css";
 
 function App() {
   return (
@@ -18,6 +19,10 @@ function App() {
           Learn React
         </a>
       </header>
+      <h1>Below this line we will present STT Web Components</h1>
+      <hr />
+      <stt-button>Hello STT button</stt-button>
+      <my-component>ddd</my-component>
     </div>
   );
 }
